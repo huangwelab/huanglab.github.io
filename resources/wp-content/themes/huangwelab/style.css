@@ -1990,11 +1990,11 @@ img {
   line-height: 1.2;
 }
 .contact-body__copy h2, .contact-body__copy .contact h1, .contact .contact-body__copy h1 {
-  font-size: 2.369rem;
+  font-size: 1.6rem;
 }
 .contact-body__copy p {
   line-height: 1.45;
-  font-size: 2.369rem;
+  font-size: 1.6rem;
 }
 .contact-body__form {
   flex-basis: 100%;
