@@ -3661,10 +3661,12 @@ img {
 }
 .project-story p {
   font-size: 1.3rem;
+  text-align: justify;
 }
 
 .project-story__copy p {
   font-size: 1.3rem;
+  text-align: justify;
 }
 
 .project-story ul li {
