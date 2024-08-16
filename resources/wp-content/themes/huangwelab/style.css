@@ -1994,6 +1994,7 @@ img {
 }
 .contact-body__copy p {
   line-height: 1.45;
+  font-size: 2.6rem;
 }
 .contact-body__form {
   flex-basis: 100%;
