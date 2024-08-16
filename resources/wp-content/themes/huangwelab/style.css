@@ -3666,6 +3666,14 @@ img {
   font-size: 1.3rem;
 }
 
+.project-story ul li {
+  font-size: 1.3rem;
+}
+
+.project-story__copy ul li {
+  font-size: 1.3rem;
+}
+
 /* end of customized */
 .single-work {
   margin-top: -25px;
