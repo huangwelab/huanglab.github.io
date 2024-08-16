@@ -3585,6 +3585,7 @@ img {
 
 .vision__professional-highlights p{
   font-size: 1.3rem;
+  text-align: justify;
 }
 .vision__professional-highlights hr {
   display: block;
