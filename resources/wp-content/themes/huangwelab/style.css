@@ -3504,6 +3504,43 @@ img {
 }
 
 /*customized*/
+.publication__news {
+  padding: 0;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 40px 0;
+  line-height: 1.2;
+  max-width: 700px;
+}
+.publication__news--item {
+  flex-basis: 100%;
+  box-sizing: border-box;
+  padding: 20px 20px 20px 0;
+}
+.publication__news--item:nth-of-type(2) {
+  padding-right: 0;
+  border-top: 1px solid #eaeaea;
+}
+.publication__news--item img {
+  max-width: 150px;
+  float: left;
+  margin-right: 20px;
+}
+.publication__news--item h4, .publication__news--item .careers-page__open-roles .open-roles__table__positions a, .careers-page__open-roles .open-roles__table__positions .publication__news--item a, .publication__news--item .contact-body__form .wpcf7-form p input[type=submit], .contact-body__form .wpcf7-form p .publication__news--item input[type=submit], .publication__news--item .newsletter .mc4wp-form-fields input[type=submit], .newsletter .mc4wp-form-fields .publication__news--item input[type=submit], .publication__news--item .header__navigation__main ul li a, .header__navigation__main ul li .publication__news--item a {
+  margin: 0;
+  color: #939393;
+  font-size: 1rem;
+}
+.publication__news--item h3, .publication__news--item .single-work .short-summary, .single-work .publication__news--item .short-summary, .publication__news--item .newsletter .mc4wp-response, .newsletter .publication__news--item .mc4wp-response {
+  margin-top: 10px;
+}
+.publication__news.hidden {
+  display: none;
+}
+
 .project__news {
   padding: 0;
   border-top: 1px solid #eaeaea;
