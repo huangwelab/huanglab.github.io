@@ -27,11 +27,11 @@ function whichPeopleChecked() {
     
     if(checkShowAll.checked)
     	{
-    	alert("checked");
+    	document.getElementByClassName("people-alumni").style.display="none";
     	}
     else
     	{
-    	alert("not checked");
+    	document.getElementByClassName("people-alumni").style.display="hidden";
     	}
   }
   
