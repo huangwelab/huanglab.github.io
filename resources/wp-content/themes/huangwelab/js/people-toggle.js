@@ -7,6 +7,7 @@ var inputAlphaLast = document.getElementById('input--alpha-last');
 var divRandom = document.getElementById('people--random');
 var divAlphaFirst = document.getElementById('people--alpha-first');
 var divAlphaLast = document.getElementById('people--alpha-last');
+var checkShowAll = document.getElementById('input--show-all');
 
 function whichPeopleChecked() {
   if (radioPeople) {
@@ -23,7 +24,18 @@ function whichPeopleChecked() {
       divAlphaFirst.classList.add('hidden');
       divRandom.classList.add('hidden');
     }
+    
+    if(checkShowAll.checked)
+    	{
+    	alert("checked");
+    	}
+    else
+    	{
+    	alert("not checked");
+    	}
   }
+  
+  
 }
 
 if (radioPeople) {
@@ -31,6 +43,7 @@ if (radioPeople) {
   inputRandom.addEventListener("click", whichPeopleChecked);
   inputAlphaFirst.addEventListener("click", whichPeopleChecked);
   inputAlphaLast.addEventListener("click", whichPeopleChecked);
+  checkShowAll.addEventListener("change",whichPeopleChecked);
 }
 
 $j(document).ready(whichPeopleChecked);
