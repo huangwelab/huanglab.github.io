@@ -7,15 +7,7 @@ var showAll = document.getElementById('input--show-all');
 
 function setupShowAll() {
 	if (showAll) {
-		alert("checked");
-		$("#input--show-all").change(function() {
-			if(this.checked) {
-		        //Do stuff
-				alert("checked2");
-		    }
-			
-			
-		});
+		$(".people-alumni").show();
 		/*showAll.addEventListener('change', (event) => {
 			  if (event.currentTarget.checked) {
 			    alert('checked');
@@ -25,6 +17,18 @@ function setupShowAll() {
 			})*/
 	}
 
+}
+
+function showHideAlumni(cb)
+{
+	if(cb.checked)
+		{
+		$(".people-alumni").show();
+		}
+	else
+		{
+	$(".people-alumni").hide();
+		}
 }
 
 $j(document).ready(setupShowAll);
